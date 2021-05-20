@@ -80,8 +80,8 @@ pygments_style = None
 html_theme = 'sphinx_rtd_theme'
 
 def setup(app):
-    app.add_stylesheet('css/201-manual.css')
-    app.add_css_file('css/201-manual.css')
+    app.add_stylesheet('style.css')
+    app.add_css_file('style.css')
     app.connect('autodoc-process-docstring', modify_docstring)
     app.connect('autodoc-process-signature', modify_signature)
 
